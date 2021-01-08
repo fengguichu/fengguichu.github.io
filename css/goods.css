@@ -1,0 +1,162 @@
+#goods_main {
+    height: 1200px;
+    width: 1200px;
+    margin: 20px auto;
+}
+
+.nav_down {
+    display: none;
+}
+
+.main_le {
+    width: 400px;
+    height: 400px;
+    border: 1px solid #ccc;
+    float: left;
+}
+
+.main_le img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.main_ri {
+    float: left;
+    margin-left: 40px;
+}
+
+.main_ri h2 {
+    margin-bottom: 10px;
+    font-weight: normal;
+    max-height: 60px;
+    line-height: 30px;
+    color: #222222;
+    font-size: 24px;
+}
+
+.price_box {
+    width: 550px;
+    height: 100px;
+    background-color: rgba(235, 232, 232, 0.455);
+    border-radius: 2px;
+    padding: 20px;
+}
+
+.price_box p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #e10808;
+}
+
+.price_box p i {
+    font-weight: unset;
+    font-size: 10px;
+    color: rgb(108, 108, 108);
+    margin-right: 10px;
+}
+
+.price_box p span {
+    font-size: 12px;
+    margin-left: 10px;
+    text-decoration: line-through;
+    color: rgb(62, 62, 62);
+}
+
+.price_box p:nth-last-child(3) {
+    color: #3e3e3e;
+    font-size: 12px;
+    line-height: 40px;
+}
+
+.price_box p strong {
+    margin: 0 6px;
+    color: #e10808;
+}
+
+.price_box>span {
+    font-size: 12px;
+}
+
+.price_box a {
+    font-size: 12px;
+    color: rgb(150, 202, 108);
+    margin-left: 10px;
+    text-decoration: underline;
+}
+
+.edition label {
+    border: 2px solid #626262;
+    padding: 2px 10px 2px 5px;
+    line-height: 28px;
+    min-width: 80px;
+    text-align: center;
+    float: left;
+    margin: 2px 10px;
+    font-size: 12px;
+}
+
+.edition input {
+    display: none;
+}
+
+.edition input:checked+label {
+    background: url(https://www.17sucai.com/preview/1076685/2018-08-31/check/images/ico_checkon.svg) no-repeat right bottom;
+    background-size: 21px 21px;
+    border-color: #e10808;
+}
+
+.edit {
+    margin-top: 30px;
+}
+
+.edit span {
+    float: left;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.edition {
+    float: left;
+    margin-left: 30px;
+}
+
+.num {
+    margin-top: 100px;
+}
+
+.num input {
+    text-align: center;
+}
+
+.num i {
+    font-size: 12px;
+    margin-right: 30px;
+}
+
+.num span {
+    font-size: 16px;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 16px;
+    vertical-align: -2px;
+    margin: 0 2px;
+    cursor: pointer;
+}
+
+.goshop {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    background-color: #e10808;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    color: aliceblue;
+    margin-top: 30px;
+    border: none;
+}

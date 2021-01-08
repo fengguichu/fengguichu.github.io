@@ -1,0 +1,134 @@
+.u_top {
+    height: 80px;
+    border-bottom: 2px solid red;
+}
+
+.u_top img {
+    float: left;
+    margin-left: 80px;
+}
+
+.nav {
+    float: left;
+    margin-left: 120px;
+}
+
+.u_top ul li {
+    float: left;
+}
+
+.u_top ul li a {
+    font-size: 18px;
+    line-height: 80px;
+    margin: 0 30px;
+}
+
+.u_top ul li:hover a {
+    color: red;
+}
+
+.login {
+    width: 1200px;
+    margin: 30px auto;
+    overflow: hidden;
+}
+
+.lo_img {
+    float: left;
+}
+
+.user {
+    width: 320px;
+    border: 1px solid #ccc;
+    float: left;
+    padding: 20px;
+    box-shadow: 0px 0px 5px 2px #ccc;
+}
+
+.user h2 {
+    font-size: 18px;
+    letter-spacing: 4px;
+}
+
+.user h2 span {
+    font-size: 12px;
+    letter-spacing: 0;
+    float: right;
+    margin-top: 3px;
+}
+
+.user h2 span a {
+    text-decoration: underline;
+}
+
+.username {
+    width: 300px;
+    height: 30px;
+    border: 1px solid #ccc;
+    padding: 0 5px;
+    margin: 20px 0;
+}
+
+.password {
+    width: 300px;
+    height: 30px;
+    border: 1px solid #ccc;
+    padding: 0 5px;
+    margin-bottom: 20px;
+}
+
+.remember {
+    margin-right: 5px;
+    vertical-align: -1px;
+}
+
+.user label {
+    font-size: 12px;
+}
+
+.user label a {
+    float: right;
+    text-decoration: underline;
+}
+
+.sub_login {
+    height: 45px;
+    width: 100%;
+    margin: 30px 0;
+    color: aliceblue;
+    background-color: #017CFE;
+    border: none;
+    border-radius: 2px;
+}
+
+.other_login p {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.other_main {
+    margin-top: 0;
+    vertical-align: top;
+    margin-right: 10px;
+    background: url(https://www.baeen.com/themes/shopsy/images/other-login-bg.png) center no-repeat;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+}
+
+.qq {
+    background-position: -40px 0;
+}
+
+.sina {
+    background-position: 0 0;
+}
+
+.zfb {
+    background-position: -80px 0;
+}
+
+.wx {
+    background-position: -200px 0;
+}

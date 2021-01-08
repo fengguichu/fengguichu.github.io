@@ -1,0 +1,83 @@
+    .swiper-container {
+        height: 360px;
+        width: 100%;
+    }
+    
+    .swiper-slide {
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .news_top {
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .news_top a {
+        margin: 0 30px;
+        font-size: 16px;
+        color: #e10808;
+        line-height: 50px;
+    }
+    
+    .news_top a:hover {
+        color: #fa2a2a;
+    }
+    
+    .news_top a span {
+        margin-right: 10px;
+    }
+    
+    .news_center {
+        text-align: center;
+    }
+    
+    .news_center a {
+        display: inline-block;
+    }
+    
+    .news_center a:hover {
+        color: #e10808;
+    }
+    
+    .news_center a p {
+        margin-top: 220px;
+        font-size: 24px;
+        letter-spacing: 2px;
+        font-weight: bold;
+    }
+    
+    .news_center a span {
+        font-size: 20px;
+        line-height: 40px;
+    }
+    
+    .news_center a:nth-child(1) {
+        width: 320px;
+        height: 320px;
+        background: url(https://www.baeen.com/themes/shopsy/images/con1.jpg);
+    }
+    
+    .news_center a:nth-child(2) {
+        width: 320px;
+        height: 320px;
+        background: url(https://www.baeen.com/themes/shopsy/images/con2.jpg);
+        margin: 0 10px;
+    }
+    
+    .news_center a:nth-child(3) {
+        width: 320px;
+        height: 320px;
+        background: url(https://www.baeen.com/themes/shopsy/images/con3.jpg);
+    }
+    
+    #main>img {
+        margin: 15px 0;
+    }
+    
+    .f1 h2 {
+        display: inline-block;
+        font-size: 28px;
+        font-weight: bold;
+        border-bottom: 4px solid #000;
+    }
